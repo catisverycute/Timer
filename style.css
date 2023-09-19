@@ -1,0 +1,71 @@
+@font-face {
+  font-family: "Pretendard";
+  src: url("./images/Pretendard-Thin.woff") format("woff");
+  font-display: swap;
+  font-weight: 700;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(to right, #f0f4ff, #a5b6ee);
+}
+p {
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+  font-size: 24px;
+}
+
+.container {
+  position: relative;
+}
+
+.box {
+  background-color: #5572bb;
+  width: 400px;
+  height: 360px;
+  border-radius: 16px;
+  box-shadow: 20px 20px 60px 10px #374b7c66;
+  text-align: center;
+  position: absolute;
+  left: 35%;
+}
+
+.dot {
+  display: grid;
+}
+
+.time {
+  display: flex;
+  justify-content: center;
+}
+
+.letter {
+  color: #a5b6ee;
+}
+
+.timer_box {
+  width: 80px;
+  height: 80px;
+  border: 1px solid #354971;
+  border-radius: 1px;
+  background: linear-gradient(314.28deg, #304577 0%, #4c65a0 83%);
+  margin-top: 10px;
+}
+
+button {
+  width: 112px;
+  height: 48px;
+  background-color: #324577;
+  color: #617199;
+  border-radius: 50px;
+  border: 0;
+  box-shadow: 1px 1px 1px 0px #0000000d inset;
+  font-size: 14px;
+  margin-top: 30px;
+  margin-right: 10px;
+}
+
+footer {
+  color: #8596bf;
+}
